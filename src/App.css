@@ -1,0 +1,51 @@
+.container{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.container_title{
+    font-size: 2rem;
+    transition: font-size 700ms ease;
+    cursor: pointer;
+}
+.container_title:hover{
+    text-shadow: 0.15em 0.15em #9999;
+    font-family: cursive;
+    font-size: 4rem;
+    transform: translateY(-1rem);
+}
+.container_phrase{
+    width: 100%;
+    max-width: 30em;
+    background-color: rgb(248, 246, 246, 0.8);
+    padding: 1.5em 2em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+    transition: padding 900ms ease;
+    cursor: pointer;
+}
+.container_phrase:hover{
+    
+    padding: 8vh;
+    text-shadow: 0.29em 0.25em #9999;
+    border:8px dotted brown;
+    color: brown;
+}
+.button_container{
+    padding: 0.8em 1.2em;
+    border-radius:0.7em;
+    font-size: 1.7rem;
+    opacity: 0.8;
+    transition: transform 700ms ease;
+}
+.button_container:hover{
+    opacity: 1;
+    transform: rotate(360deg) scale(1.2);
+    box-shadow: 0 0 0.8em #0003;
+    cursor: pointer;
+}
